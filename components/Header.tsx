@@ -21,6 +21,22 @@ export default function Header() {
               About
             </Link>
           </li>
+          <li>
+            <Link
+              href="/preview"
+              className="text-sm font-medium text-zinc-900 dark:text-zinc-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+            >
+              Preview
+            </Link>
+          </li>
+          <li className="ml-auto">
+            <Link
+              href="/login"
+              className="text-sm font-medium px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
+            >
+              Login
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
