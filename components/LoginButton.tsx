@@ -1,14 +1,11 @@
 "use client";
 
-export default function LoginButton() {
-  const handleLogin = () => {
-    console.log("Login button clicked");
-    // Add your login logic here
-  };
+import Link from "next/link";
 
+export default function LoginButton() {
   return (
-    <button
-      onClick={handleLogin}
+    <Link
+      href="/login"
       className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-transparent px-5 text-blue-400 font-medium transition-all duration-300 border-2 border-blue-500 md:w-[158px]"
       style={{
         boxShadow: "0 0 20px rgba(59, 130, 246, 0.8), inset 0 0 20px rgba(59, 130, 246, 0.2)",
@@ -21,6 +18,6 @@ export default function LoginButton() {
       }}
     >
       Login
-    </button>
+    </Link>
   );
 }
