@@ -3,6 +3,27 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Theme colors */
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --primary-foreground: #ffffff;
+
+  --secondary: #6b7280;
+  --secondary-hover: #4b5563;
+  --secondary-foreground: #ffffff;
+
+  --success: #10b981;
+  --success-hover: #059669;
+  --success-foreground: #ffffff;
+
+  --danger: #ef4444;
+  --danger-hover: #dc2626;
+  --danger-foreground: #ffffff;
+
+  --warning: #f59e0b;
+  --warning-hover: #d97706;
+  --warning-foreground: #ffffff;
 }
 
 @theme inline {
@@ -16,6 +37,27 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    /* Theme colors for dark mode */
+    --primary: #3b82f6;
+    --primary-hover: #60a5fa;
+    --primary-foreground: #ffffff;
+
+    --secondary: #6b7280;
+    --secondary-hover: #9ca3af;
+    --secondary-foreground: #ffffff;
+
+    --success: #10b981;
+    --success-hover: #34d399;
+    --success-foreground: #ffffff;
+
+    --danger: #ef4444;
+    --danger-hover: #f87171;
+    --danger-foreground: #ffffff;
+
+    --warning: #f59e0b;
+    --warning-hover: #fbbf24;
+    --warning-foreground: #ffffff;
   }
 }
 
